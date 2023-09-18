@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estilos para la tabla */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabla th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabla tbody tr:nth-child(even) {
+  background-color: #f2f2f2b9;
+}
+
+/* Hover sobre las filas */
+.tabla tbody tr:hover {
+  background-color: #df4444;
+  cursor: pointer;
+}
+
+/* Estilo para la cabecera de la tabla */
+.tabla thead {
+  background-color: #333;
+  color: rgb(133, 34, 34);
+}
+
+/* Alineación de texto en columnas específicas */
+.tabla td:nth-child(2),
+.tabla th:nth-child(2) {
+  text-align: right;
+}
+
+/* Alinear texto en la columna "En Stock" al centro */
+.tabla td:nth-child(4),
+.tabla th:nth-child(4) {
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
