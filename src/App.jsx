@@ -25,22 +25,23 @@ function App() {
   return (
     <div className="app">
       <h1>Reto con React consumiendo API de .NET </h1>
+      <h1>PEDIDOS DE VENTA </h1>
       <table className="tabla">
         <thead>
           <tr>
-            <th>Nombre de la Pizza</th>
-            <th>Costo</th>
-            <th>Ingredientes</th>
-            <th>En Stock</th>
+            <th>Email Cliente</th>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
           </tr>
         </thead>
         <tbody>
           {datapizzas.map((item, index) => (
             <tr key={index}>
-              <td>{item.pizzaName}</td>
-              <td>{item.cost}</td>
-              <td>{item.ingredients}</td>
-              <td>{item.inStock ? 'Sí' : 'No'}</td>
+              <td>{item.correo_cliente}</td>
+              <td>{item.nombre_producto}</td>
+              <td>{item.cantidad}</td>
+              <td>{item.precio_producto ? item.precio_producto : 'Null'}</td>
             </tr>
           ))}
         </tbody>

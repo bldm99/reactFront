@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const URLNET = 'http://ip172-19-0-77-ck49hr0gftqg00bsc200-5200.direct.labs.play-with-docker.com/pizzainfo'
+const URLNET = 'http://ip172-18-0-18-ckcdh16fml8g008kl2ug-5200.direct.labs.play-with-docker.com/prueba/listar'
 
 
 //Ver todos los datos 
